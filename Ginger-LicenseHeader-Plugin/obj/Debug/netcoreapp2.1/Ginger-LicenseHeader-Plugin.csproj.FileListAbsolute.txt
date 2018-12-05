@@ -1,0 +1,10 @@
+C:\GitHubRepository\Ginger-LicenseHeader-Plugin\Ginger-LicenseHeader-Plugin\bin\Debug\netcoreapp2.1\Ginger-LicenseHeader-Plugin.deps.json
+C:\GitHubRepository\Ginger-LicenseHeader-Plugin\Ginger-LicenseHeader-Plugin\bin\Debug\netcoreapp2.1\Ginger-LicenseHeader-Plugin.runtimeconfig.json
+C:\GitHubRepository\Ginger-LicenseHeader-Plugin\Ginger-LicenseHeader-Plugin\bin\Debug\netcoreapp2.1\Ginger-LicenseHeader-Plugin.runtimeconfig.dev.json
+C:\GitHubRepository\Ginger-LicenseHeader-Plugin\Ginger-LicenseHeader-Plugin\bin\Debug\netcoreapp2.1\Ginger-LicenseHeader-Plugin.dll
+C:\GitHubRepository\Ginger-LicenseHeader-Plugin\Ginger-LicenseHeader-Plugin\obj\Debug\netcoreapp2.1\Ginger-LicenseHeader-Plugin.csproj.CoreCompileInputs.cache
+C:\GitHubRepository\Ginger-LicenseHeader-Plugin\Ginger-LicenseHeader-Plugin\obj\Debug\netcoreapp2.1\Ginger-LicenseHeader-Plugin.AssemblyInfoInputs.cache
+C:\GitHubRepository\Ginger-LicenseHeader-Plugin\Ginger-LicenseHeader-Plugin\obj\Debug\netcoreapp2.1\Ginger-LicenseHeader-Plugin.AssemblyInfo.cs
+C:\GitHubRepository\Ginger-LicenseHeader-Plugin\Ginger-LicenseHeader-Plugin\bin\Debug\netcoreapp2.1\Ginger-LicenseHeader-Plugin.pdb
+C:\GitHubRepository\Ginger-LicenseHeader-Plugin\Ginger-LicenseHeader-Plugin\obj\Debug\netcoreapp2.1\Ginger-LicenseHeader-Plugin.dll
+C:\GitHubRepository\Ginger-LicenseHeader-Plugin\Ginger-LicenseHeader-Plugin\obj\Debug\netcoreapp2.1\Ginger-LicenseHeader-Plugin.pdb

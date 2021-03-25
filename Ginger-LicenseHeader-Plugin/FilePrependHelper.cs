@@ -15,56 +15,48 @@ namespace Ginger_LicenseHeader_Plugin
 
         public void PrependTextKeepInitialComment(string strDataToAppend, string initialComment)
         {
-            string strFileContents = "";
-            StreamWriter swWriter = null;
             try
             {
-                strFileContents = ReadToEndSkipInitialComment(initialComment);
-
+                string strFileContents = ReadToEndSkipInitialComment(initialComment);
                 strFileContents = initialComment + Environment.NewLine + strDataToAppend + Environment.NewLine + strFileContents;
-                swWriter = new StreamWriter(file, false);
-                swWriter.Write(strFileContents);
-                swWriter.Flush();
+                using (StreamWriter swWriter = new StreamWriter(file, false))
+                {
+                    swWriter.Write(strFileContents);
+                    swWriter.Close();
+                }
             }
             catch (Exception objException)
             {
                 throw (objException);
-            }
-            finally
-            {
-                swWriter.Close();
             }
         }
 
         public void Prepend(string strDataToAppend)
         {
-            string strFileContents = "";
-            StreamWriter swWriter = null;
             try
             {
-                strFileContents = ReadFileToEnd();
-
+                string strFileContents = ReadFileToEnd();
                 strFileContents = strDataToAppend + Environment.NewLine + strFileContents;
-                swWriter = new StreamWriter(file, false);
-                swWriter.Write(strFileContents);
-                swWriter.Flush();
+                using (StreamWriter swWriter = new StreamWriter(file, false))
+                {
+                    swWriter.Write(strFileContents);
+                    swWriter.Close();
+                }
             }
             catch (Exception objException)
             {
                 throw (objException);
-            }
-            finally
-            {
-                swWriter.Close();
             }
         }
 
         private string ReadFileToEnd()
         {
             string strFileContents;
-            StreamReader srReader = new StreamReader(file);
-            strFileContents = srReader.ReadToEnd();
-            srReader.Close();
+            using (StreamReader sr = File.OpenText(file))
+            {
+                strFileContents = sr.ReadToEnd();
+                sr.Close();
+            }
             return strFileContents;
         }
 
@@ -83,6 +75,45 @@ namespace Ginger_LicenseHeader_Plugin
                 }
             }
             return strFileContents.ToString();
+        }
+
+        public void ReplaceText(string findText, string replaceText)
+        {
+            try
+            {
+                string strFileContents = GetReplacedText(findText, replaceText);
+                if (!string.IsNullOrEmpty(strFileContents))
+                {
+                    using (StreamWriter swWriter = new StreamWriter(file, false))
+                    {
+                        swWriter.Write(strFileContents);
+                        swWriter.Close();
+                    }
+                }
+            }
+            catch (Exception objException)
+            {
+                throw (objException);
+            }
+        }
+
+        private string GetReplacedText(string findText, string replaceText)
+        {
+            string strFileContents = string.Empty;
+            using (StreamReader sr = File.OpenText(file))
+            {
+                strFileContents = sr.ReadToEnd();
+            }
+
+            if (!string.IsNullOrEmpty(strFileContents) && strFileContents.Contains(findText))
+            {
+                strFileContents = strFileContents.Replace(findText, replaceText);
+            }
+            else
+            {
+                strFileContents = string.Empty;
+            }
+            return strFileContents;
         }
     }
 }

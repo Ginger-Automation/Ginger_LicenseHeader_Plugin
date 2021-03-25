@@ -1499,3 +1499,56 @@
 05-12-2018 04:20:30 - Earlier - True, License Added - False, FileName - C:\GitHubRepository\Ginger\Ginger\GingerCoreNET\SolutionRepositoryLib\RepositoryObjectsLib\ActionsLib\Common\BackupRestoreAttributes.cs
 05-12-2018 04:20:30 - ===============================Ended Adding License Comments, Project - C:\GitHubRepository\Ginger\Ginger===============================
 
+25-03-2021 12:12:17 - ===============================Started Adding License Comments, Project - C:\GitHubRepository\Ginger\Ginger===============================
+25-03-2021 12:12:17 - Earlier - True, License Added - False, FileName - C:\GitHubRepository\Ginger\Ginger\Ginger\App.xaml.cs
+25-03-2021 12:12:18 - Earlier - True, License Added - False, FileName - C:\GitHubRepository\Ginger\Ginger\Ginger\MainWindow.xaml.cs
+25-03-2021 12:12:18 - Earlier - True, License Added - False, FileName - C:\GitHubRepository\Ginger\Ginger\GingerATS\GingerATS.cs
+25-03-2021 12:12:18 - Earlier - True, License Added - False, FileName - C:\GitHubRepository\Ginger\Ginger\GingerATS\GingerATSLog.cs
+25-03-2021 12:12:18 - Earlier - True, License Added - False, FileName - C:\GitHubRepository\Ginger\Ginger\GingerATS\GingerATSRepositoryIndexer.cs
+25-03-2021 12:12:18 - Earlier - True, License Added - False, FileName - C:\GitHubRepository\Ginger\Ginger\GingerATS\GingerATSSVNSourceControl.cs
+25-03-2021 12:12:18 - Earlier - True, License Added - False, FileName - C:\GitHubRepository\Ginger\Ginger\GingerATS\GingerATSXmlReader.cs
+25-03-2021 12:12:18 - Earlier - True, License Added - False, FileName - C:\GitHubRepository\Ginger\Ginger\GingerATS\GingerRepositoryItem.cs
+25-03-2021 12:12:18 - Earlier - True, License Added - False, FileName - C:\GitHubRepository\Ginger\Ginger\GingerATS\SourceConnectionDetails.cs
+25-03-2021 12:12:18 - Earlier - True, License Added - False, FileName - C:\GitHubRepository\Ginger\Ginger\GingerATS\StepAutoStatus.cs
+25-03-2021 12:12:18 - Earlier - True, License Added - False, FileName - C:\GitHubRepository\Ginger\Ginger\GingerATS\StepParamAutoStatus.cs
+25-03-2021 12:12:18 - Earlier - True, License Added - False, FileName - C:\GitHubRepository\Ginger\Ginger\GingerATS\TestCaseAutoStatus.cs
+25-03-2021 12:12:18 - Earlier - True, License Added - False, FileName - C:\GitHubRepository\Ginger\Ginger\GingerAutoPilotTest\SwaggetTests.cs
+25-03-2021 12:12:18 - Earlier - True, License Added - False, FileName - C:\GitHubRepository\Ginger\Ginger\GingerAutoPilotTest\TestAssemblyInit.cs
+25-03-2021 12:12:19 - Earlier - True, License Added - False, FileName - C:\GitHubRepository\Ginger\Ginger\GingerConsole\GingerConsoleWorkSpace.cs
+25-03-2021 12:12:19 - Earlier - True, License Added - False, FileName - C:\GitHubRepository\Ginger\Ginger\GingerConsole\Program.cs
+25-03-2021 12:12:19 - Earlier - True, License Added - False, FileName - C:\GitHubRepository\Ginger\Ginger\GingerCoreCommonTest\ActivitiesGroupsTest.cs
+25-03-2021 12:12:19 - Earlier - True, License Added - False, FileName - C:\GitHubRepository\Ginger\Ginger\GingerCoreCommonTest\ObservableListTest.cs
+25-03-2021 12:12:19 - Earlier - True, License Added - False, FileName - C:\GitHubRepository\Ginger\Ginger\GingerCoreCommonTest\TestAssemblyInit.cs
+25-03-2021 12:12:19 - Earlier - True, License Added - False, FileName - C:\GitHubRepository\Ginger\Ginger\GingerCoreTest\TestAssemblyInit.cs
+25-03-2021 12:12:19 - Earlier - True, License Added - False, FileName - C:\GitHubRepository\Ginger\Ginger\GingerHelper\App.xaml.cs
+25-03-2021 12:12:19 - Earlier - True, License Added - False, FileName - C:\GitHubRepository\Ginger\Ginger\GingerHelper\GingerHelperHandler.cs
+25-03-2021 12:12:19 - Earlier - True, License Added - False, FileName - C:\GitHubRepository\Ginger\Ginger\GingerHelper\MainWindow.xaml.cs
+25-03-2021 12:12:19 - Earlier - True, License Added - False, FileName - C:\GitHubRepository\Ginger\Ginger\GingerPluginCore\OperatingSystem.cs
+25-03-2021 12:12:19 - Earlier - True, License Added - False, FileName - C:\GitHubRepository\Ginger\Ginger\GingerPluginCoreTest\MyServiceTest.cs
+25-03-2021 12:12:19 - Earlier - True, License Added - False, FileName - C:\GitHubRepository\Ginger\Ginger\GingerPluginCoreTest\SampleService1.cs
+25-03-2021 12:12:19 - Earlier - True, License Added - False, FileName - C:\GitHubRepository\Ginger\Ginger\GingerPluginCoreTest\TestAssemblyInit.cs
+25-03-2021 12:12:19 - Earlier - True, License Added - False, FileName - C:\GitHubRepository\Ginger\Ginger\GingerPluginCoreTest\TextEditorTest.cs
+25-03-2021 12:12:20 - Earlier - True, License Added - False, FileName - C:\GitHubRepository\Ginger\Ginger\GingerPluginPlatforms\IActionHandler.cs
+25-03-2021 12:12:20 - Earlier - True, License Added - False, FileName - C:\GitHubRepository\Ginger\Ginger\GingerPlugIns\ExtensionMethods.cs
+25-03-2021 12:12:20 - Earlier - True, License Added - False, FileName - C:\GitHubRepository\Ginger\Ginger\GingerTest\GingerAutomator.cs
+25-03-2021 12:12:20 - Earlier - True, License Added - False, FileName - C:\GitHubRepository\Ginger\Ginger\GingerTest\GingerBasicsTest.cs
+25-03-2021 12:12:20 - Earlier - True, License Added - False, FileName - C:\GitHubRepository\Ginger\Ginger\GingerTest\TestAssemblyInit.cs
+25-03-2021 12:12:20 - Earlier - True, License Added - False, FileName - C:\GitHubRepository\Ginger\Ginger\GingerUtils\BitmapManager.cs
+25-03-2021 12:12:20 - Earlier - True, License Added - False, FileName - C:\GitHubRepository\Ginger\Ginger\GingerUtils\FileUtils.cs
+25-03-2021 12:12:20 - Earlier - True, License Added - False, FileName - C:\GitHubRepository\Ginger\Ginger\GingerUtils\JSONManager.cs
+25-03-2021 12:12:20 - Earlier - True, License Added - False, FileName - C:\GitHubRepository\Ginger\Ginger\GingerUtils\MRUManager.cs
+25-03-2021 12:12:20 - Earlier - True, License Added - False, FileName - C:\GitHubRepository\Ginger\Ginger\GingerUtils\ShellService.cs
+25-03-2021 12:12:20 - Earlier - True, License Added - False, FileName - C:\GitHubRepository\Ginger\Ginger\GingerUtils\StringCompressor.cs
+25-03-2021 12:12:20 - Earlier - True, License Added - False, FileName - C:\GitHubRepository\Ginger\Ginger\GingerUtils\StringManager.cs
+25-03-2021 12:12:20 - Earlier - True, License Added - False, FileName - C:\GitHubRepository\Ginger\Ginger\GingerUtilsTest\ShellHelperTest.cs
+25-03-2021 12:12:20 - Earlier - True, License Added - False, FileName - C:\GitHubRepository\Ginger\Ginger\GingerUtilsTest\StringCompressorTest.cs
+25-03-2021 12:12:20 - Earlier - True, License Added - False, FileName - C:\GitHubRepository\Ginger\Ginger\GingerUtilsTest\TestAssemblyInit.cs
+25-03-2021 12:12:20 - Earlier - True, License Added - False, FileName - C:\GitHubRepository\Ginger\Ginger\GingerWeb\Program.cs
+25-03-2021 12:12:20 - Earlier - True, License Added - False, FileName - C:\GitHubRepository\Ginger\Ginger\GingerWeb\Startup.cs
+25-03-2021 12:12:21 - Earlier - True, License Added - False, FileName - C:\GitHubRepository\Ginger\Ginger\GingerWPFDriverWindow\App.xaml.cs
+25-03-2021 12:12:21 - Earlier - True, License Added - False, FileName - C:\GitHubRepository\Ginger\Ginger\GingerWPFDriverWindow\MainWindow.xaml.cs
+25-03-2021 12:12:21 - Earlier - True, License Added - False, FileName - C:\GitHubRepository\Ginger\Ginger\Ginger\Actions\ActionEditPage.xaml.cs
+25-03-2021 12:12:21 - Earlier - True, License Added - False, FileName - C:\GitHubRepository\Ginger\Ginger\Ginger\Actions\ActionFlowControlPage.xaml.cs
+25-03-2021 12:12:21 - Earlier - True, License Added - False, FileName - C:\GitHubRepository\Ginger\Ginger\Ginger\Actions\ActionLogConfigPage.xaml.cs
+25-03-2021 12:12:21 - ===============================Ended Adding License Comments, Project - C:\GitHubRepository\Ginger\Ginger===============================
+

@@ -8,3 +8,5 @@ C:\GitHubRepository\Ginger-LicenseHeader-Plugin\Ginger-LicenseHeader-Plugin\obj\
 C:\GitHubRepository\Ginger-LicenseHeader-Plugin\Ginger-LicenseHeader-Plugin\bin\Debug\netcoreapp2.1\Ginger-LicenseHeader-Plugin.pdb
 C:\GitHubRepository\Ginger-LicenseHeader-Plugin\Ginger-LicenseHeader-Plugin\obj\Debug\netcoreapp2.1\Ginger-LicenseHeader-Plugin.dll
 C:\GitHubRepository\Ginger-LicenseHeader-Plugin\Ginger-LicenseHeader-Plugin\obj\Debug\netcoreapp2.1\Ginger-LicenseHeader-Plugin.pdb
+C:\GitHubRepository\Ginger-LicenseHeader-Plugin\Ginger-LicenseHeader-Plugin\obj\Debug\netcoreapp2.1\Ginger-LicenseHeader-Plugin.csprojAssemblyReference.cache
+C:\GitHubRepository\Ginger-LicenseHeader-Plugin\Ginger-LicenseHeader-Plugin\obj\Debug\netcoreapp2.1\Ginger-LicenseHeader-Plugin.genruntimeconfig.cache

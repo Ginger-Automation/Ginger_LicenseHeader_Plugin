@@ -60,9 +60,12 @@ namespace Ginger_LicenseHeader_Plugin
         {
             try
             {
+                string OLD_COPYRIGHT_YEAR_TO_RELACE = "Copyright © 2014-2021";
+                string NEW_COPYRIGHT_YEAR_TO_RELACE = "Copyright © 2014-2022";
+
                 string HEADER_COMMENT = "#region License" + Environment.NewLine +
                                               "/*" + Environment.NewLine +
-                                              "Copyright © 2014-2018 European Support Limited" + Environment.NewLine + Environment.NewLine +
+                                              "Copyright © 2014-2022 European Support Limited" + Environment.NewLine + Environment.NewLine +
                                               "Licensed under the Apache License, Version 2.0 (the \"License\")" + Environment.NewLine +
                                               "you may not use this file except in compliance with the License." + Environment.NewLine +
                                               "You may obtain a copy of the License at " + Environment.NewLine + Environment.NewLine +
@@ -86,6 +89,9 @@ namespace Ginger_LicenseHeader_Plugin
 
                 LogText(MethodBase.GetCurrentMethod().Name, string.Format("===============================Started Adding License Comments, Project - {0}===============================", path));
 
+                int addedCommentCount = 0;
+                int updatedYearCount = 0;
+                int tempCount = 0;
                 foreach (var filepath in filePaths)
                 {
                     if (!filepath.Contains("Temporary")
@@ -98,9 +104,9 @@ namespace Ginger_LicenseHeader_Plugin
                         {
                             string initialComment = string.Empty;
                             bool isLicenseCommentPresent = IsLicenseHeaderPresent(filepath, ref initialComment);
+                            FilePrependHelper fp = new FilePrependHelper(filepath);
                             if (!isLicenseCommentPresent)
                             {
-                                FilePrependHelper fp = new FilePrependHelper(filepath);
                                 if (string.IsNullOrEmpty(initialComment))
                                 {
                                     fp.Prepend(HEADER_COMMENT);
@@ -109,15 +115,27 @@ namespace Ginger_LicenseHeader_Plugin
                                 {
                                     fp.PrependTextKeepInitialComment(HEADER_COMMENT, initialComment);
                                 }
+                                addedCommentCount++;
                             }
-
+                            else
+                            {
+                                fp.ReplaceText(OLD_COPYRIGHT_YEAR_TO_RELACE, NEW_COPYRIGHT_YEAR_TO_RELACE);
+                                updatedYearCount++;
+                            }
                             LogText(MethodBase.GetCurrentMethod().Name, string.Format("Earlier - {0}, License Added - {1}, FileName - {2}", isLicenseCommentPresent, !isLicenseCommentPresent, filepath));
+                            tempCount++;
+                            if (tempCount == 50)
+                            {
+                                break;
+                            }
                         }
                     }
                 }
 
                 LogText(MethodBase.GetCurrentMethod().Name, string.Format("===============================Ended Adding License Comments, Project - {0}===============================", path));
                 LogText(MethodBase.GetCurrentMethod().Name, string.Empty);
+                Console.WriteLine(string.Format("Added Comment in Files: {0}, Updated year in Files: {1}", addedCommentCount, updatedYearCount));
+                Console.ReadLine();
             }
             catch (Exception ex)
             {
@@ -852,6 +870,7 @@ namespace Ginger_LicenseHeader_Plugin
 
         private static void LogText(string methodName, string text)
         {
+            Console.WriteLine(text);
             string file = methodName + "_log.txt";
             using (StreamWriter swWriter = File.AppendText(file))
             {
